@@ -77,6 +77,7 @@
 // xcolor
 
 #section(
+  cols: 2,
   title: "xcolor",
   name: "xcolor",
   palette.xcolor,
@@ -97,6 +98,14 @@
   title: "Google Workspace: Simple Light Theme",
   name: "google-simple-light",
   palette.google-simple-light,
+)
+
+// Typst Syntax Highlighting
+
+#section(
+  title: "Typst Syntax Highlighting",
+  name: "typst-highlighting",
+  palette.typst-highlighting,
 )
 
 // Tailwind CSS
