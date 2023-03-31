@@ -74,6 +74,14 @@
   date: "March 31, 2023",
 )
 
+// xcolor
+
+#section(
+  title: "xcolor",
+  name: "xcolor",
+  palette.xcolor,
+)
+
 // Google Workspace
 
 #section(
@@ -108,8 +116,4 @@
   name: "gruvbox",
   palette.gruvbox,
 )
-
-
-
-
 
