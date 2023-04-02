@@ -156,16 +156,29 @@
 )
 
 #let google-simple-light = (
-  black: google.black,
-  white: google.white,
-  light-gray: rgb("#eeeeee"),
-  dark-gray: rgb("#595959"),
-  accent-1: rgb("#4285f4"),
-  accent-2: rgb("#212121"),
-  accent-3: rgb("#78909c"),
-  accent-4: rgb("#ffab40"),
-  accent-5: rgb("#0097a7"),
-  accent-6: rgb("#eeff41"),
+  text-1       : rgb("#000000"),
+  text-2       : rgb("#595959"),
+  background-1 : rgb("#ffffff"),
+  background-2 : rgb("#eeeeee"),
+  accent-1     : rgb("#4285f4"),
+  accent-2     : rgb("#212121"),
+  accent-3     : rgb("#78909c"),
+  accent-4     : rgb("#ffab40"),
+  accent-5     : rgb("#0097a7"),
+  accent-6     : rgb("#eeff41"),
+)
+
+#let google-simple-dark = (
+  text-1       : rgb("#ffffff"),
+  text-2       : rgb("#adadad"),
+  background-1 : rgb("#212121"),
+  background-2 : rgb("#303030"),
+  accent-1     : rgb("#009688"),
+  accent-2     : rgb("#eeeeee"),
+  accent-3     : rgb("#78909c"),
+  accent-4     : rgb("#ffab40"),
+  accent-5     : rgb("#4dd0e1"),
+  accent-6     : rgb("#eeff41"),
 )
 
 // Typst Syntax Highlighting Colors

@@ -96,9 +96,19 @@
 
 #section(
   title: "Google Workspace: Simple Light Theme",
+  do-page-break: false,
   name: "google-simple-light",
   palette.google-simple-light,
 )
+
+#section(
+  title: "Google Workspace: Simple Dark Theme",
+  do-page-break: false,
+  name: "google-simple-dark",
+  palette.google-simple-dark,
+)
+
+#pagebreak(weak: true)
 
 // Typst Syntax Highlighting
 
