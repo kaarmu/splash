@@ -1,11 +1,26 @@
 #import "../src/palette.typ"
 
-#show raw: box.with(
-  fill: luma(240),
-  inset: 0.5em,
-  radius: 3pt,
-  baseline: 0.5em
-)
+#let code(body) = {
+  set text(weight: "regular")
+  show: box.with(
+    fill: luma(240),
+    inset: 0.4em,
+    radius: 3pt,
+    baseline: 0.4em,
+  )
+  raw(body)
+}
+
+#let get-color-value(color) = {
+  let s = repr(color)
+  let m = s.match(regex("(.*)\\((.*)\\)"))
+  let p = (name: m.captures.at(0), value: eval(m.captures.at(1)))
+  text(fill: luma(200))[
+    #raw(p.name)
+    #h(1fr)
+    #raw(p.value)
+  ]
+}
 
 #let make-title(title: none, author: none, date: none, description: none) = [
   #set align(center)
@@ -33,7 +48,7 @@
   name: none,
   colors,
 ) = {
-  heading(level: 2, title + if name != none [ --- #raw(name); ])
+  heading(level: 2, title + if name != none [ --- #code(name); ])
   v(1em)
   let arr = ()
   for i, pair in colors.pairs() {
@@ -43,16 +58,18 @@
       stroke: none,
     )[
       #set align(horizon)
-      #raw(name)
+      #code(name)
       #h(1fr)
       #box(
         width: 3em,
         height: 1em,
         fill: color,
-        stroke: rgb("#aaaaaa"),
-        radius: 1pt,
+        stroke: luma(230),
+        radius: 2pt,
         baseline: 0.25em,
       )
+      #linebreak()
+      #get-color-value(color)
     ]
     arr.push(blk)
   }
@@ -71,13 +88,13 @@
   title: "Palette",
   description: [ A package of color palettes for Typst. ],
   author: "Kaj Munhoz Arfvidsson",
-  date: "March 31, 2023",
+  date: "April 3, 2023",
 )
 
 // xcolor
 
 #section(
-  cols: 2,
+  cols: 3,
   title: "xcolor",
   name: "xcolor",
   palette.xcolor,
@@ -87,12 +104,9 @@
 
 #section(
   title: "Google Workspace",
-  do-page-break: false,
   name: "google",
   palette.google,
 )
-
-#v(2em)
 
 #section(
   title: "Google Workspace: Simple Light Theme",
