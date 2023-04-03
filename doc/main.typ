@@ -86,7 +86,7 @@
 
 #make-title(
   title: "Palette",
-  description: [ A package of color palettes for Typst. ],
+  description: [ A library of color palettes for Typst. ],
   author: "Kaj Munhoz Arfvidsson",
   date: "April 3, 2023",
 )

@@ -1,8 +1,8 @@
 # typst-palette
 
-A package of color palettes for Typst.
+A library of color palettes for Typst.
 
-This package provides different color palettes with human-readable names in
+This library provides different color palettes with human-readable names in
 Typst dictionaries. Currently there are just a few different palettes to choose
 from. Any contributions or suggestions are welcome!
 
