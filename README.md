@@ -1,4 +1,4 @@
-# typst-palette
+# typst-palettes
 
 A library of color palettes for Typst.
 
@@ -13,8 +13,6 @@ from. Any contributions or suggestions are welcome!
 
 #box(width: 3em, height: 1em, fill: xcolor.dandelion)
 ```
-
-*Note*: Typst must be `>= v0.2`.
 
 ## Documentation
 
