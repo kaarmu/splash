@@ -9,10 +9,12 @@ from. Any contributions or suggestions are welcome!
 ## Usage
 
 ```typst
-#import "palette.typ": google
+#import "palettes.typ": xcolor
 
-#box(width: 3em, height: 1em, fill: google.cornflower-blue)
+#box(width: 3em, height: 1em, fill: xcolor.dandelion)
 ```
+
+*Note*: Typst must be `>= v0.2`.
 
 ## Documentation
 
