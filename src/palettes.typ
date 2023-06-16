@@ -6,3 +6,4 @@
 #import "palettes/tol.typ": *
 #import "palettes/typst-highlighting.typ": *
 #import "palettes/xcolor.typ": *
+#import "palettes/okabe-ito.typ": *
