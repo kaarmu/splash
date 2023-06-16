@@ -189,3 +189,11 @@ package his work for ease-of-use in Typst.
   palettes.tailwind,
 )
 
+// Okabe-Ito
+
+#section(
+  cols: 3,
+  title: "Okabe-Ito",
+  name: "okabe-ito",
+  palettes.okabe-ito,
+)
