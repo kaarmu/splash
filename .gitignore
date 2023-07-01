@@ -1,2 +1,2 @@
-src/*.pdf
-doc/util.pdf
+*.pdf
+!doc/main.pdf
