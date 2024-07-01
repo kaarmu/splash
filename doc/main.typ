@@ -197,3 +197,104 @@ package his work for ease-of-use in Typst.
   name: "okabe-ito",
   palettes.okabe-ito,
 )
+
+== Seaborn
+
+The following section shows qualitative palettes created by the seaborn project.
+`typst-palettes` only package his work for ease-of-use in Typst.
+Visit the #link("https://seaborn.pydata.org/tutorial/color_palettes.html")[seaborn documentation] for a discussion of these palettes.
+All of these palettes come in a default 10-color and a reduced six color version.
+
+#section(
+  cols: 4,
+  title: "Seaborn Bright",
+  name: "seaborn.bright",
+  palettes.seaborn.bright,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Bright 6",
+  name: "seaborn.bright6",
+  palettes.seaborn.bright6,
+  do-page-break: false,
+)
+
+#section(
+  cols: 4,
+  title: "Seaborn Colorblind",
+  name: "seaborn.colorblind",
+  palettes.seaborn.colorblind,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Colorblind 6",
+  name: "seaborn.colorblind6",
+  palettes.seaborn.colorblind6,
+)
+
+#section(
+  cols: 4,
+  title: "Seaborn Dark",
+  name: "seaborn.dark",
+  palettes.seaborn.dark,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Dark 6",
+  name: "seaborn.dark6",
+  palettes.seaborn.dark6,
+  do-page-break: false,
+)
+
+#section(
+  cols: 4,
+  title: "Seaborn Deep",
+  name: "seaborn.deep",
+  palettes.seaborn.deep,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Deep 6",
+  name: "seaborn.deep6",
+  palettes.seaborn.deep6,
+)
+
+#section(
+  cols: 4,
+  title: "Seaborn Muted",
+  name: "seaborn.muted",
+  palettes.seaborn.muted,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Muted 6",
+  name: "seaborn.muted6",
+  palettes.seaborn.muted6,
+  do-page-break: false,
+)
+
+#section(
+  cols: 4,
+  title: "Seaborn Pastel",
+  name: "seaborn.pastel",
+  palettes.seaborn.pastel,
+  do-page-break: false,
+)
+
+#section(
+  cols: 3,
+  title: "Seaborn Pastel 6",
+  name: "seaborn.pastel6",
+  palettes.seaborn.pastel6,
+  do-page-break: false,
+)
