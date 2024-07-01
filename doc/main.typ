@@ -198,6 +198,17 @@ package his work for ease-of-use in Typst.
   palettes.okabe-ito,
 )
 
+
+// XKCD
+
+#section(
+  cols: 3,
+  description: "These colors were named in the XKCD Color Survey.", // TODO link
+  title: "XKCD Color Survey",
+  name: "xkcd_rgb",
+  palettes.xkcd_rgb,
+)
+
 == Seaborn
 
 The following section shows qualitative palettes created by the seaborn project.
