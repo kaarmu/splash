@@ -1,4 +1,4 @@
-#let xkcd_rgb = (
+#let xkcd-rgb = (
   "acid-green": rgb("#8ffe09"),
   "adobe": rgb("#bd6c48"),
   "algae": rgb("#54ac68"),
