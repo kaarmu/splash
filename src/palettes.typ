@@ -9,3 +9,4 @@
 #import "palettes/xcolor.typ": *
 #import "palettes/xkcd.typ": *
 #import "palettes/okabe-ito.typ": *
+#import "palettes/latexcolors.typ": *
