@@ -206,7 +206,7 @@ package his work for ease-of-use in Typst.
   description: "These colors were named in the XKCD Color Survey.", // TODO link
   title: "XKCD Color Survey",
   name: "xkcd_rgb",
-  palettes.xkcd_rgb,
+  palettes.xkcd-rgb,
 )
 
 == Seaborn

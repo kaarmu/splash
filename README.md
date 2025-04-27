@@ -12,12 +12,12 @@ it in the example below.
 ## Usage
 
 ```typst
-#import "@preview/splash:0.4.0": xcolor
+#import "@preview/splash:0.5.1": xcolor
 
 #box(width: 3em, height: 1em, fill: xcolor.dandelion)
 ```
 
 ## Documentation
 
-See the different colors in the [documentation](https://github.com/kaarmu/splash/blob/v0.4.0/doc/main.pdf).
+See the different colors in the [documentation](https://github.com/kaarmu/splash/blob/v0.5.1/doc/main.pdf).
 
